@@ -2,60 +2,61 @@
 layout: default
 ---
 <header style="background-image: url({{ site.baseurl }}{{ page.featured_image }});">
-  <div class="container post-container">
-    <ul class="meta">
-      {%if page.feature != "261" %}
-        <li>
-        <span>
-          <a href="{{ site.baseurl }}/" class="home_button"></a>
-          <ul class="post-external-links">
-            <li><a class="portfolio-link" href="https://github.com/jmp3833">Github</a></li>
-            <li><a class="portfolio-link" href="https://twitter.com/JPeterson__">Twitter</a></li>
-            <li><a class="portfolio-link" href="https://linkedin.com/in/jmp3833">Linkedin</a></li>
-            <li><a class="portfolio-link" href="mailto:jmp3833@rit.edu">Email</a></li>
-            <li><a class="portfolio-link" href="{{ site.baseurl }}/staticcontent/resume.pdf">Resume</a></li>
-          </ul>
-        </span>
-        </li>
-      {% endif %}
-    </ul>
-    <div class="inner-container">
-      <h1>{{ page.title }}</h1>
-      <ul class="meta">
-        <li>
-        <span>
-          Published
-        </span>
-        </li>
-        <li>
-        <span>
-          Category
-        </span>
-        {{ page.categories }}
-        </li>
-      </ul>      
-    </div>
-    <ul class="pagination">
-      {% if page.previous.url %}
-      <li class="previous">
-      <a href="{{ site.baseurl }}{{ page.previous.url }}">
-        Previous
-      </a>
-      </li>
-      {% endif %}
-      {% if page.next.url %}
-      <li class="next">
-      <a href="{{ site.baseurl }}{{ page.next.url }}">
-        Next
-      </a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
+	<div class="container post-container">
+		<ul class="meta">
+			<li>
+				<a href="{{ site.baseurl }}/" class="home_button"></a>
+				<ul class="post-external-links">
+				  <li>
+				  	<h1>{{ site.title }}</h1>
+		        <span class="tagline">{{ site.tagline }}</span>
+					</li>
+					<li><a class="portfolio-link" href="https://github.com/jmp3833">Github</a></li>
+					<li><a class="portfolio-link" href="https://twitter.com/JPeterson__">Twitter</a></li>
+					<li><a class="portfolio-link" href="https://linkedin.com/in/jmp3833">Linkedin</a></li>
+					<li><a class="portfolio-link" href="mailto:jmp3833@rit.edu">Email</a></li>
+					<li><a class="portfolio-link" href="{{ site.baseurl }}/staticcontent/resume.pdf">Resume</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="inner-container">
+			<h1>{{ page.title }}</h1>
+			<ul class="meta">
+				<li>
+					<span>
+						Published
+					</span>
+					{{ page.date | date_to_string }}
+				</li>
+				<li>
+					<span>
+						Category
+					</span>
+					{{ page.categories }}
+				</li>
+			</ul>      
+		</div>
+		<ul class="pagination">
+			{% if page.previous.url %}
+			<li class="previous">
+				<a href="{{ site.baseurl }}{{ page.previous.url }}">
+					Previous
+				</a>
+			</li>
+			{% endif %}
+			{% if page.next.url %}
+			<li class="next">
+				<a href="{{ site.baseurl }}{{ page.next.url }}">
+					Next
+				</a>
+			</li>
+			{% endif %}
+		</ul>
+	</div>
 </header>
 
 <article>
-  <div class="container">
-    {{ content }}
-  </div>
+	<div class="container">
+		{{ content }}
+	</div>
 </article>

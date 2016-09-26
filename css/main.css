@@ -7,7 +7,7 @@
 }
 
 .post-external-links {
-  padding: 50px 0 0 50px;
+  padding: 80px 0 0 50px;
 }
 
 html,
@@ -152,7 +152,7 @@ header .container {
 
   header .post-container .inner-container {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
