@@ -6,7 +6,7 @@ categories: intro
 featured_image: /images/cover.jpg
 ---
 
-##About Me
+## About Me
 I've been interested in software development since the tail-end of my high school career. Since coming to RIT in Autumn of 2011, that interest has continually grown. I have spent time honing my skills at companies on the east and west coast, deploying code to millions of people at scale. In addition to web development, I have done web automation testing, developer operations, and simple microcontroller development.
 Lately, I have become more and more interested in data-driven applications. I realized that maintaining simple web applications no longer prove to be challenging enough to hold my interest. Moving forward, I would like to pick up more projects with a focus on data management and analytics with simple to use and intuitive frontends. 
 
