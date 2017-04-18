@@ -7,7 +7,6 @@ featured_image: /images/cover.jpg
 ---
 
 ## Back to NY for the weekend
-
 It's been awhile since I've been home to see family. Taking a trip back tends to put
 things into perspective. Since settling into the new job, time has been passing considerably faster than
 while in school. Hard to to think that it's almost been a year since graduation.
