@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unplugging 🔌"
-date: 2017-04-17 18:00:00
+date: 2017-05-29 18:00:00
 categories: travel
 featured_image: /images/cover.jpg
 ---
@@ -14,11 +14,15 @@ I seem to be getting the same amount done each week regardless of how much time 
 working out of the office. The "work smarter, not harder" philosophy has been gaining
 popularity, and I'm starting to realize why.
 
+--
+
 {%
   include image.html
   url="/images/052917-contributions.png"
-  description="Taking some time to unwind. Can't recommend it enough!"
+  description="Taking time to unwind."
 %}
+
+--
 
 Traveling to Europe (for the first time!) was incredible. The perceived lack of urgency by most French and Spanish citizens
 really stuck out to me. While we rushed through meals at the latest tourist spot, folks would look
